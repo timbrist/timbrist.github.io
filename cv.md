@@ -1,4 +1,9 @@
+# Shengheng Yan
+============
+Email: <timbrist@outlook.com>
 
+## About
+A software developer with a strong math(Machine Learning) and computer science background. I have 2 years of work experience and good-quality personal projects in C++. Twice full-time internship to tackle academic problems in Python. I believe my background in software development, deep learning, and my passion for optimizing AI applications will contribute to the industry. 
 
 Education
 ---------
@@ -14,6 +19,7 @@ Education
     HomeTown (HomeTown)
 
     *Minor: Awesomeology*
+<hr>
 
 Experience
 ----------
