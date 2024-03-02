@@ -1,6 +1,6 @@
 # timbrist.github.io
 
-[about](https://timbrist.github.io/about)
+[How to write a Master thesis](https://timbrist.github.io/thesis)
 
 [cv](https://timbrist.github.io/cv)
 
