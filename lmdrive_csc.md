@@ -11,29 +11,7 @@ Traceback (most recent call last):
   File "/projappl/project_2009655/LMDrive/leaderboard/leaderboard/scenarios/scenario_manager.py", line 155, in _tick_scenario
     ego_action = self._agent()
   File "/projappl/project_2009655/LMDrive/leaderboard/leaderboard/autoagents/agent_wrapper.py", line 82, in __call__
-    return self._agent()
-  File "/projappl/project_2009655/LMDrive/leaderboard/leaderboard/autoagents/autonomous_agent.py", line 115, in __call__
-    control = self.run_step(input_data, timestamp)
-  File "/PUHTI_TYKKY_7d8FtWn/miniconda/envs/env1/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/projappl/project_2009655/LMDrive/leaderboard/team_code/lmdriver_agent.py", line 508, in run_step
-    image_embeds = self.net.visual_encoder(input_data)
-  File "/PUHTI_TYKKY_7d8FtWn/miniconda/envs/env1/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/projappl/project_2009655/LMDrive/vision_encoder/timm/models/memfuser.py", line 830, in forward
-    features, lidar_token = self.forward_features(
-  File "/projappl/project_2009655/LMDrive/vision_encoder/timm/models/memfuser.py", line 801, in forward_features
-    lidar_token = self.lidar_backbone(lidar, num_points) # Batchsize * embed_dim * 50 * 50
-  File "/PUHTI_TYKKY_7d8FtWn/miniconda/envs/env1/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/projappl/project_2009655/LMDrive/vision_encoder/timm/models/memfuser.py", line 500, in forward
-    features = self.point_pillar_net(lidars, num_points)
-  File "/PUHTI_TYKKY_7d8FtWn/miniconda/envs/env1/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/projappl/project_2009655/LMDrive/vision_encoder/timm/models/pointpillar.py", line 145, in forward
-    features = self.point_net(decorated_points, inverse_indices)
-  File "/PUHTI_TYKKY_7d8FtWn/miniconda/envs/env1/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
+    ....
   File "/projappl/project_2009655/LMDrive/vision_encoder/timm/models/pointpillar.py", line 64, in forward
     feat_max = scatter_max(feat, inverse_indices, dim=0)[0]
   File "/PUHTI_TYKKY_7d8FtWn/miniconda/envs/env1/lib/python3.8/site-packages/torch_scatter/scatter.py", line 72, in scatter_max
@@ -50,6 +28,60 @@ see the [soluton](https://github.com/rusty1s/pytorch_scatter/issues/271).
 ```Shell
 pip install torch-scatter -f https://data.pyg.org/whl/torch-2.0.1+cu117.html
 ```
+
+## Segmentation fault: Signal 11 caught.
+You might encounter this problem when start up the Carla0.9.10.1
+```Shell
+Signal 11 caught.
+Malloc Size=65538 LargeMemoryPoolOffset=65554 
+CommonUnixCrashHandler: Signal=11
+Malloc Size=65535 LargeMemoryPoolOffset=131119 
+Malloc Size=145408 LargeMemoryPoolOffset=276544 
+Engine crash handling finished; re-raising signal 11 for the default handler. Good bye.
+/projappl/project_2009655/LMDrive/CarlaUE4.sh: line 5: 3781441 Segmentation fault      "$UE4_PROJECT_ROOT/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping" CarlaUE4 $@
+```
+
+This is error basically mean, we are running out of GPU memory. But I didn't have this problem every time. therefore, I think this is a glitch that HCP has.
+But here is some solution that you can use. 
+
+### Solution 1
+run your CarlaUE4 with small amount of memory.
+```Shell
+CUDA_VISIBLE_DEVICES=0 ./CarlaUE4.sh -RenderOffScreen -windowed -ResX=320 -ResY=240 -benchmark -fps=10 -quality-level=low -nosound
+```
+
+### Solution 2
+some people also use docker to solve this problem.I haven't try this, because puhti use apptainer which different than docker.
+```Shell
+docker pull carlasim/carla:0.9.10.1
+docker run -p 2000-2002:2000-2002 --runtime=nvidia --gpus all carlasim/carla:0.9.10.1
+```
+### Solution 3
+run your CarlaUE4 without rendering 
+
+```Shell 
+./CarlaUE4.sh -opengl
+```
+
+## ImportError: libjpeg.so.8: cannot open shared object file: No such file or directory
+
+Remember whenever you ran into importError, this can only mean only thing:
+install some damn packages.
+```Shell 
+  import pkg_resources
+Traceback (most recent call last):
+  File "/projappl/project_2009655/LMDrive/leaderboard/leaderboard/leaderboard_evaluator.py", line 26, in <module>
+    import carla
+  File "<frozen zipimport>", line 259, in load_module
+...
+ImportError: libjpeg.so.8: cannot open shared object file: No such file or directory
+```
+
+Since I am not allow to use sudo on HCP, I install jpeglib with pip.
+```Shell 
+pip install jpeglib
+```
+
 
 
 ## My requirement.txt 
