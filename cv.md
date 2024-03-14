@@ -1,5 +1,5 @@
 # Shengheng Yan
-=============================
+
 Email: <timbrist@outlook.com>
 
 ## About
@@ -11,6 +11,7 @@ Education
 2022-2024 (expected)
 :   **MSc, Cognitive Computing**: University of Jyväskylä (Finland)
     <!-- *Thesis title: Finnish Exercise generation* -->
+    Currently, I am writing the thesis with Aalto Univerity of the topic on "autonomous driving with large language model".
 
 2016-2020
 :  **BSc, Software Engineering**: Shanghai Institute of Technology(China)
