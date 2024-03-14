@@ -41,8 +41,10 @@ Engine crash handling finished; re-raising signal 11 for the default handler. Go
 /projappl/project_2009655/LMDrive/CarlaUE4.sh: line 5: 3781441 Segmentation fault      "$UE4_PROJECT_ROOT/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping" CarlaUE4 $@
 ```
 
-This is error basically mean, we are running out of GPU memory. But I didn't have this problem every time. therefore, I think this is a glitch that HCP has.
-But here is some solution that you can use. 
+~~This is error basically mean, we are running out of GPU memory. But I didn't have this problem every time. therefore, I think this is a glitch that HCP has.
+But here is some solution that you can use.~~
+
+After sending email to CSC, the technical support helped me. Thank you very much.  I am now 97% sure, it is the glitch of Puhti. 
 
 ### Solution 1
 run your CarlaUE4 with small amount of memory.
