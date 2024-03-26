@@ -84,7 +84,14 @@ Root Cause (first observed failure):
 
 #### Dignose the issue 
 
-for me it probabily run out of memoery. 
+~~for me it probabily run out of memoery. ~~
+[20240326] I have the same error on HCP, 
 
 
 
+
+### export environment configuration:
+
+```
+conda env export | grep -v "^prefix: " > environment.yml
+```
