@@ -6,6 +6,8 @@
 
 [My Note of CARLA](https://timbrist.github.io/carla)
 
+[Python Workflow](https://timbrist.github.io/workflow/python)
+
 [cv](https://timbrist.github.io/cv)
 
 [journal](https://timbrist.github.io/journal/journal_home)
