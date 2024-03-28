@@ -1,5 +1,11 @@
 # My Note of CARLA
 
+
+## Basic
+
+![basic carla](https://timbrist.github.io/imgs/carla_basic.drawio.png)
+
+![actor](https://timbrist.github.io/imgs/Actors .drawio.png)
 ## Objectives 
 
 - []  creating a The race track.  

@@ -52,7 +52,7 @@ conda-containerize new --prefix ./llama2_env llama2_env.yml
 I have no idea why 
 ```bash 
 export PATH="/scratch/project_2009655/projects/llama/container/llama2_env/bin:$PATH" 
-export XDG_CACHE_HOME=</scratch/project_2009655/cache
+export XDG_CACHE_HOME=/scratch/project_2009655/cache
 pip install torch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 --index-url https://download.pytorch.org/whl/cu118
 NOTE: change the directory to project.
 ```bash
