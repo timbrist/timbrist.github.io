@@ -5,12 +5,12 @@
 
 ![basic carla](https://timbrist.github.io/imgs/carla_basic.drawio.png)
 
-![actor](https://timbrist.github.io/imgs/Actors .drawio.png)
-## Objectives 
+![actor](https://timbrist.github.io/imgs/Actors.drawio.png)
 
-- []  creating a The race track.  
+## Map  
 
-just press M and P for swithing manual mode or autopilot mode in manual_control.py
+
+
 
 ## references
 
