@@ -1,0 +1,23 @@
+# undecide
+
+
+May 7, Finland droped it's temperature from sauna to refrigerator. On my way to the university, snowflakes start falling like birch pollen. I caught a snowflake, it melted instantly. What a weird feeling to have snow in May. 
+
+I promised my girlfriend that every 9th of a month we exchange our writings. But whenever I had a sense to write down something worth to remember, I flinched. Either I found the excuse that I already have enough thesis to write or there are still plenty of time. Even now I am thinking writing this is a way to escape from the stress of incoming thesis deadline. 
+
+
+The first impulse to record is the Saturday night of Apirl 6. We just got back home from her friend's dorm, playing poker. None of us felt like to take shower then go to sleep. We chated for a long time. We talked everything, from movie to Chinese poetry. I told her that I like one of the sentences from Ouyang Xiu. And I remember it from today.
+
+"星月皎洁，明河在天，四无人声，声在树间。"
+
+She giggled, said" I remember something from it too".
+
+"天之于物，春生秋实，故其在乐也，商声主西方之音，夷则为七月之律。商，伤也，物既老而悲伤；夷，戮也，物过盛而当杀。"
+
+I said :" wow, that is the much more beautiful part, and I don't even remember what does 商 means". she lean her head towords me a little and explained :" ei? it is one of the tone 商音, 宫、商、 角 jué 、 徵 zhǐ 、羽." I felt like a dope. but I like she being a pandit. we horsed around until 5 in the morning. Boy, how I like being with her. Even I was as busy as hell during her visit, she has been supportive. 
+
+The night before she leave to italy, we had this little stupid game.
+though we decided to woke up at 4 to catch the omnibus, she got so excited from winning the game. The game is to pat on the opponent in rhythmic beats, the opponent should guess what song it is. she won everything, I lost most every song. Damn, I like seeing her be happy. She is the kind of girl you want to give the prettiest thing in the world. Something, I feel so guilty that I didn't take her to fancy restaurants or travelling. 
+
+
+
