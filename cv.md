@@ -20,7 +20,6 @@ Education
     *Thesis: 3D reconstruction with Structure Light.*
 
     I implemented a non-contact 3D surface measurement technique using OpenCV and a 3D reconstruction algorithm.The target object was projected by 6 gray codes and 4 phase patterns.I also designed and implemented an algorithm that matches feature points of right and left camera images within a reasonable time. The code is available as open source on [github](https://github.com/timbrist/structure-light).
-<hr>
 
 Experience
 ----------
@@ -48,15 +47,12 @@ July 2019 - December 2019
 :  **Python, C++, Software Engineer Internship**: Shanghai WenShang Technology CO., LTD(China)
 
     Using image algorithms to detect flaws of industrial components. Optimizing the time complexity of the company image analyzing program. Documenting the results of software testing. Writing data analysis scripts to track detection data and parameters.
-<hr>
-
-
 
 Projects
 --------------------
 
-[Hikvision-qt](https://github.com/timbrist/hikvision-qt)
+[Hikvision-qt](https://github.com/timbrist/hikvision-qt)  
 I designed and implemented a Qt interface for Hikvison camera MV-CA013-21UM. It is a byproduct of my dissertation. I used Hikvison cameras mainly for taking pictures instantly while projecting project patterns.
 
-Home Service Robot Competition:   
+Home Service Robot Competition
 I worked closely with hardware engineers for building a robot. My tasks were related to the software side which involved using C# to implement the robot's main logic, such as Speech Recognition, Computer Vision, and communication with ROS that are used for broadcasting messages to the robot chassis and laser. My team won 6 prizes at RoboCup (China Region), including 3 The First Prizes, and 9 prizes at China Service Robot Competition.
