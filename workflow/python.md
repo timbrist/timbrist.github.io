@@ -1,7 +1,10 @@
 # The workflow of Python
 
 
-## virtual environment
+## Virtual Environment
+
+This section provides most common-used commands.
+
 
 ### Create a virtual environment with conda
 
@@ -21,7 +24,21 @@ or install the package from the ```requirement.txt``` file.
 pip install -r requirement.txt
 ```
 
-## pytorch
+### Delete the environment
+```bash 
+conda deactivate
+conda remove -n env_name --all
+```
+
+### Export Environment Configuration:
+
+```bash
+conda env export | grep -v "^prefix: " > environment.yml
+```
+
+<hr>
+
+## Pytorch
 
 ### check if the pytorch use cuda
 
@@ -80,18 +97,8 @@ Root Cause (first observed failure):
 ======================================================
 ```
 
-
-
 #### Dignose the issue 
 
 ~~for me it probabily run out of memoery. ~~
 [20240326] I have the same error on HCP, 
 
-
-
-
-### export environment configuration:
-
-```
-conda env export | grep -v "^prefix: " > environment.yml
-```
