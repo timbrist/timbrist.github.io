@@ -24,6 +24,11 @@ or install the package from the ```requirement.txt``` file.
 pip install -r requirement.txt
 ```
 
+### List exsisting the environment
+```bash 
+conda env list
+```
+
 ### Delete the environment
 ```bash 
 conda deactivate

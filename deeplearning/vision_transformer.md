@@ -3,11 +3,11 @@
 Origin paper at : https://arxiv.org/pdf/2010.11929
 
 This page will serve as my note, building ViT from scratch. 
-![ViT](https://timbrist.github.io/deeplearnings/vision_transformer.png)
+![ViT](https://timbrist.github.io/deeplearning/vision_transformer.png)
 
 ## Patch + Position Embedding
 
-Reshape image \( x \in \mathbb{R}^{ \mathbf{H} \times \mathbf{W} \times \mathbf{C} }\) into a sequence of flattened 2D patches \( x_p \in \mathbb{R}^{ \mathbf{N} \times (\mathbf{P}^2 \cdot \mathbf{C})  } \), where \(N = HW/P^2\).
+Reshape image $ x \in \mathbb{R}^{ \mathbf{H} \times \mathbf{W} \times \mathbf{C} }$ into a sequence of flattened 2D patches $ x_p \in \mathbb{R}^{ \mathbf{N} \times (\mathbf{P}^2 \cdot \mathbf{C})  } $, where $N = HW/P^2 $.
 
 
 ```Python
@@ -34,7 +34,7 @@ class PositionalEncoding(nn.Module):
 
 ## Transformer Encoder 
 
-![TE](https://timbrist.github.io/deeplearnings/transformer_encoder.png)
+![TE](https://timbrist.github.io/deeplearning/transformer_encoder.png)
 
 ```Python
 class TransformerEncoder(nn.Module):#import torch as nn
