@@ -1,6 +1,6 @@
 # Shengheng Yan
 
-Email: <timbrist@outlook.com>
+Email: <timbrist@outlook.com>  
 Github: https://github.com/timbrist
 
 A software developer with a strong math(machine learning) and computer science background. I have 2 years of work experience and good-quality personal projects in C++. Twice full-time internship to tackle academic problems in Python. I believe my background in software development, deep learning, and my passion for optimizing AI applications will contribute to the industry. 
