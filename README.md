@@ -12,4 +12,6 @@
 
 [cv](https://timbrist.github.io/cv)
 
+[Unreal Engine 5 Notes](https://timbrist.github.io/gamedev/ue5.md)  
+
 [journal](https://timbrist.github.io/journal/journal_home)

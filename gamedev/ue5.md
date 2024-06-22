@@ -58,6 +58,12 @@ Cason Quisenberry in his video [Need to Know Nodes in Unreal 5 Blueprints](https
 - function
 
 
+### From tiny game to small game
+It's time to make a small playable game, including simply game play. Check this [How to Make Your First Game in Unreal Engine 5 in 2023 - Full Course](https://www.youtube.com/watch?v=FehFMdsi7aA&t=22s) from Gorka Games. 
+
+The Video is 1 hour and 40 minutes. It would be wise, you split it and watch them in different times.  The tutorial design a simple shooting game which player holding a shotgun to shot the enemy in a simple platform. 
+
+
 
 
 
