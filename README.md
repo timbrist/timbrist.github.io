@@ -1,6 +1,6 @@
 # timbrist.github.io
 
-[How to write a Master thesis](https://timbrist.github.io/thesis)
+[How to write a Master thesis](https://timbrist.github.io/writing/thesis)
 
 [How to solve the issues that running LMDrive on CSC Puhti](https://timbrist.github.io/lmdrive_csc)
 
