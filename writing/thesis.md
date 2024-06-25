@@ -28,12 +28,14 @@ So far, I hope you have some kind of idea or interest that you want to write. If
 
 For example, I have a idea of "the interpretability of large language model for autonomous driving" 
 ![paper digest](https://timbrist.github.io/writing/paper_digest.png) 
-Did you see all the Related Work listed?  Try to read some papers 
+Did you see all the Related Work listed?  Try to read some papers(evitable). The objective is to get a general idea of the field you are interestd in.
 
-## Literature Review
+## Thesis Structure
+Your university usually have a recommended structure even a detail instructions. But if they didn't provide, try to use the following.   
 
-### Literature Review Structure
-Imaging writing your thesis is like bulding a house, you should always have a framwork to your project so that you can build upon it. 
-
-You could either ask ChatGPT with promt: Could you give me a literature review structure of master thesis on topic "sth sth sth" or read others' work and try to mimic their structure.
+#### 1). Introduction 
+#### 2). Literature Review
+#### 3). Methods
+#### 4). Experienments
+#### 5). Results
 
