@@ -4,7 +4,7 @@
 
 [How to solve the issues that running LMDrive on CSC Puhti](https://timbrist.github.io/lmdrive_csc)
 
-[My Note of CARLA](https://timbrist.github.io/carla)
+[CSC Workflow]((https://timbrist.github.io/workflow/hcp_csc))
 
 [Python Workflow](https://timbrist.github.io/workflow/python)
 
