@@ -17,9 +17,14 @@ conda create -n env_name python=3.8
 conda activate env_name
 ```
 
-After activate the environment, you would use the command ```pip install ``` .
-or install the package from the ```requirement.txt``` file. 
+### Import Environment Configuration:
 
+**import using conda**:
+```bash
+conda env create -f environment.yml
+```
+
+**import using pip**:
 ```bash
 pip install -r requirement.txt
 ```
@@ -37,9 +42,17 @@ conda remove -n env_name --all
 
 ### Export Environment Configuration:
 
+**export using conda**:
 ```bash
 conda env export | grep -v "^prefix: " > environment.yml
 ```
+
+**export using pip**:
+```bash
+pip freeze > requirements.txt
+
+```
+
 
 <hr>
 
