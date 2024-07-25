@@ -20,7 +20,7 @@ git checkout -b <branch-name>
 ```bash
 git remote -v
 ```
-It will show current branch you on forked repository(origin) and the other's repository(upstream)
+It will show repository you forked(origin) and the other's repository(upstream)
 ```
 origin	git@version.aalto.fi:yans2/project.git (fetch)
 origin	git@version.aalto.fi:yans2/project.git (push)
@@ -28,6 +28,18 @@ upstream	https://github.com/timbrist/project.git (fetch)
 upstream	https://github.com/timbrist/project.git (push)
 ```
 
+### to track the local branches 
+
+```bash
+git branch -r
+```
+It will show current branch(origin/main) you are using(origin/HEAD) 
+and the branch of other's repository(upstream/main)
+```bash
+origin/HEAD -> origin/main
+origin/main     # this is the branch you are using, HEAD is just a pointer(like c/c++).
+upstream/main
+```
 
 **case 1**: 
 Project "A" on GitLab, which import from Project "B" on GitHub,
