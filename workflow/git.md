@@ -1,7 +1,7 @@
 # My git workflow
 
 
-## 
+## General Workflow of git
 
 **Step 1:** Initiate the project on your local-machine from remote-repository
 ```bash
@@ -48,21 +48,24 @@ git push origin feature-1
 Only after you save your work into main branch, your work is done.
 
 Go to the remote-repository, and click "Compare & pull request".
+If there are no conflicts, just press "commit 
+
+if there is a conflicts, open the project with vscode(or any IDE)
 
 
-## Fork
+### Fork
+
+**Step 1:** Copy other's project on their repository website.
 ![fork](https://timbrist.github.io/workflow/fork.png)
-
 Fork other's repository before cloning, because the code will not always run on your computer or other's. 
+
+
+**Step 2:** Initiate the project on your local-machine from remote-repository
 ```bash
 # 1. get the repository from your account that fork from other's 
 git clone https://github.com/<your-username>/<forked-repo>.git
 cd <forked-repo>
-
-# 2. Create a new branch.
-git checkout -b <branch-name>
 ```
-
 
 
 ## to get the information
