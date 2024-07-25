@@ -10,6 +10,8 @@
 
 [Python Workflow](https://timbrist.github.io/workflow/python)
 
+[Git Workflow](https://timbrist.github.io/workflow/git)
+
 [Deep Learning Notes](https://timbrist.github.io/deeplearning/home)
 
 [cv](https://timbrist.github.io/cv)
