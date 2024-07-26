@@ -3,9 +3,6 @@
 **Email:**: <timbrist@outlook.com>  
 **GitHub:**: https://github.com/timbrist
 
-A software developer with a strong math(machine learning) and computer science background. I have 2 years of work experience and good-quality personal projects in C++. Twice full-time internship to tackle academic problems in Python. I believe my background in software development, deep learning, and my passion for optimizing AI applications will contribute to the industry. 
-
----
 
 ## Experience
 
@@ -17,7 +14,7 @@ A software developer with a strong math(machine learning) and computer science b
 - Developed a CARLA autonomous driving agent using large language models like LLama2, GPT4o.
 - Developed a natural language narrations and reasoning for driving dataset from [BDD-X-dataset](https://github.com/JinkyuKimUCB/BDD-X-dataset), using GPT4o
 - Implement and finetuning the state-of-art method on BDD-X-dataset on [videollava](https://github.com/PKU-YuanGroup/Video-LLaVA)
-- Design experiments and evaluate results on metrics like BLUE, CIDEr.
+- Design experiments and evaluate results on metrics like BLUE, ROUGE and CIDEr.
 
 ### Summer Intern
 **University of Jyväskylä**
@@ -64,24 +61,21 @@ A software developer with a strong math(machine learning) and computer science b
 
 ## Education
 ### Master of Science in Cognitive Computing
+**University of Jyväskylä, Finland**  
 *2022-2024*
-*Thesis: Autonomous Driving Systems with Large Language Models: A Comparative Study of Interpretability and Motion Planning* 
-    
-Corroborated with Aalto University, we investigate the integration of large language models into autonomous driving systems, with a particular emphasis on their potential to enhance interpretability, decision-making, and planning capabilities. We implement both data-driven and knowledge-driven models within the CARLA simulator across diverse scenarios, focusing specifically on the TransFuser and LMDrive frameworks. 
+*[Thesis](https://jyx.jyu.fi/handle/123456789/95789): Autonomous Driving Systems with Large Language Models: A Comparative Study of Interpretability and Motion Planning* 
+
+- Investigated the integration of large language models into autonomous driving systems
+- Implemented autonomous agent using CARLA simulator
+- Implemented state-of-art models: TransFuser and LMDrive 
+- Corroborated with Aalto University
+
 
 ### Bachelor of Engineering in Software Engineering
 **Shanghai Institute of Technology, China**  
 *2016-2020*
-*Thesis: 3D reconstruction with Structure Light.*
-
-I implemented a non-contact 3D surface measurement technique using OpenCV and a 3D reconstruction algorithm.The target object was projected by 6 gray codes and 4 phase patterns.I also designed and implemented an algorithm that matches feature points of right and left camera images within a reasonable time. The code is available as open source on [github](https://github.com/timbrist/structure-light).
-
----
-
-## Skills
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) 
-
-<!-- ![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=flat&logo=unreal-engine&logoColor=white) -->
+*Thesis: 3D reconstruction with Structure Light.* 
+- A non-contact 3D surface measurement technique using C++, OpenCV and a 3D reconstruction algorithm. The code is available as open source on [github](https://github.com/timbrist/structure-light).
 
 
 ---
@@ -101,3 +95,9 @@ I implemented a non-contact 3D surface measurement technique using OpenCV and a 
 **Technologies Used:** 
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![ROS](https://img.shields.io/badge/ROS-22314E?style=flat&logo=ros&logoColor=white) ![Microsoft Speech API](https://img.shields.io/badge/Microsoft%20Speech%20API-0078D4?style=flat&logo=microsoft&logoColor=white)
 
+---
+
+## Skills
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) 
+
+<!-- ![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=flat&logo=unreal-engine&logoColor=white) -->
