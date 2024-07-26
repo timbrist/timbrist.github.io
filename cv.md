@@ -3,8 +3,6 @@
 **Email:**: <timbrist@outlook.com>  
 **GitHub:**: https://github.com/timbrist
 
----
-## Summary
 A software developer with a strong math(machine learning) and computer science background. I have 2 years of work experience and good-quality personal projects in C++. Twice full-time internship to tackle academic problems in Python. I believe my background in software development, deep learning, and my passion for optimizing AI applications will contribute to the industry. 
 
 ---
@@ -21,15 +19,13 @@ A software developer with a strong math(machine learning) and computer science b
 - Implement and finetuning the state-of-art method on BDD-X-dataset on [videollava](https://github.com/PKU-YuanGroup/Video-LLaVA)
 - Design experiments and evaluate results on metrics like BLUE, CIDEr.
 
-### Summer Trainee
+### Summer Intern
 **University of Jyväskylä**
 *Jyväskylä, Finland*
 *April 2023 - August 2023*
 
 - Developed an interpreter of Multi-objective optimization problems for group framework [DESDEO](https://github.com/industrial-optimization-group/DESDEO).
-
 - Implement a web interface using Typescript, CortexJS library. It provides users to type multi-objective optimization problems in mathematic symbols and use DESDEO features. 
-
 - Wrote unit tests to ensure all the [multi-objective optimization problems](https://desdeo-problem.readthedocs.io/en/latest/examples.html) work correctly.
 
 
@@ -40,6 +36,7 @@ A software developer with a strong math(machine learning) and computer science b
 
 - Developed scout, equipment system on SLG mobile game using Unity, Lua, and C++. 
 - Developed a data error checking game tool(using VB) for game designer. 
+- Designed protobuf data format for back-end and front-end.
 - Participated in code reviews and contributed to Git and SVN management. 
 - Bug-fixing and Documentation. 
 
@@ -49,37 +46,58 @@ A software developer with a strong math(machine learning) and computer science b
 *July 2020 - August 2021*
 
 - Developed hibernate and wake-up, backlight dimming, transmission of touch data, and power management on automotive display/screen.
-- 
-    I was responsible for automotive display/screen products development. My tasks included requirement analysis, architecture design, implementation, and bug fixing. The software runs on an ARM Cortex M0/M4 which controls peripheral chips such as the Deserializer of MAX9278 and Touch control of Synaptics TB7800. I was involved in the implementation of a real-time operating system, which included serial communication with an automotive central control system. The main functions of the system included Hibernate and Wake-up, Backlight dimming, transmission of touch data, and power management.
+- Debugged de/serializer MAX9278/MAX9282, Synaptics TB7800, and ARM Cortex M0/M4 using oscilloscope, TP-Link, Keil C.
+- Familar with ISO26262 and MISRA C/C++
+- Cloudified documents and specifications that shares among SE, EE and QA department.
+- Fixed critical bug on IC board. 
 
-July 2019 - December 2019
-:  **Python, C++, Software Engineer Internship**: Shanghai WenShang Technology CO., LTD(China)
+### Software Engineer Intern
+**Shanghai WenShang Technology CO., LTD**
+*Shanghai, China*
+*July 2019 - December 2019*
 
-    Using image algorithms to detect flaws of industrial components. Optimizing the time complexity of the company image analyzing program. Documenting the results of software testing. Writing data analysis scripts to track detection data and parameters.
+- Implement image algorithms to detect flaws of automative components using C++, OpenCV, Tensorflow CNN. 
+- Optimizing the time complexity of the company image analyzing program.
+- Writing data analysis Python scripts to track detection data and parameters.
 
+---
 
-Education
----------
-
-2022-2024 (expected)
-:   **MSc, Cognitive Computing**: University of Jyväskylä (Finland)
+## Education
+### Master of Science in Cognitive Computing
+*2022-2024*
+*Thesis: Autonomous Driving Systems with Large Language Models: A Comparative Study of Interpretability and Motion Planning* 
     
-    *Thesis: Autonomous Driving Systems with Large Language Models: A Comparative Study of Interpretability and Motion Planning* 
-    
-    Corroborated with Aalto University, we investigate the integration of large language models into autonomous driving systems, with a particular emphasis on their potential to enhance interpretability, decision-making, and planning capabilities. We implement both data-driven and knowledge-driven models within the CARLA simulator across diverse scenarios, focusing specifically on the TransFuser and LMDrive frameworks. 
+Corroborated with Aalto University, we investigate the integration of large language models into autonomous driving systems, with a particular emphasis on their potential to enhance interpretability, decision-making, and planning capabilities. We implement both data-driven and knowledge-driven models within the CARLA simulator across diverse scenarios, focusing specifically on the TransFuser and LMDrive frameworks. 
 
-2016-2020
-:  **BSc, Software Engineering**: Shanghai Institute of Technology(China)
-    
-    *Thesis: 3D reconstruction with Structure Light.*
+### Bachelor of Engineering in Software Engineering
+**Shanghai Institute of Technology, China**  
+*2016-2020*
+*Thesis: 3D reconstruction with Structure Light.*
 
-    I implemented a non-contact 3D surface measurement technique using OpenCV and a 3D reconstruction algorithm.The target object was projected by 6 gray codes and 4 phase patterns.I also designed and implemented an algorithm that matches feature points of right and left camera images within a reasonable time. The code is available as open source on [github](https://github.com/timbrist/structure-light).
+I implemented a non-contact 3D surface measurement technique using OpenCV and a 3D reconstruction algorithm.The target object was projected by 6 gray codes and 4 phase patterns.I also designed and implemented an algorithm that matches feature points of right and left camera images within a reasonable time. The code is available as open source on [github](https://github.com/timbrist/structure-light).
 
-Projects
---------------------
+---
 
-[Hikvision-qt](https://github.com/timbrist/hikvision-qt)  
-I designed and implemented a Qt interface for Hikvison camera MV-CA013-21UM. It is a byproduct of my dissertation. I used Hikvison cameras mainly for taking pictures instantly while projecting project patterns.
+## Skills
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) 
 
-Home Service Robot Competition  
-I worked closely with hardware engineers for building a robot. My tasks were related to the software side which involved using C# to implement the robot's main logic, such as Speech Recognition, Computer Vision, and communication with ROS that are used for broadcasting messages to the robot chassis and laser. My team won 6 prizes at RoboCup (China Region), including 3 The First Prizes, and 9 prizes at China Service Robot Competition.
+<!-- ![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=flat&logo=unreal-engine&logoColor=white) -->
+
+
+---
+
+## Projects
+
+### [Hikvision-qt](https://github.com/timbrist/hikvision-qt)  
+**Description:** A Qt interface for Hikvison camera MV-CA013-21UM
+*Achievements:* 40+ stars on github.
+**Technologies Used:** 
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat&logo=qt&logoColor=white) 
+
+
+### Home Service Robot   
+**Description:** Robot functions include Speech Recognition, Computer Vision and Navigation. 
+*Achievements:* My team won 6 prizes at RoboCup (China Region), including 3 The First Prizes, and 9 prizes at China Service Robot Competition.
+**Technologies Used:** 
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![ROS](https://img.shields.io/badge/ROS-22314E?style=flat&logo=ros&logoColor=white) ![Microsoft Speech API](https://img.shields.io/badge/Microsoft%20Speech%20API-0078D4?style=flat&logo=microsoft&logoColor=white)
+
