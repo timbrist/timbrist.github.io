@@ -1,14 +1,14 @@
 # Shengheng Yan
 
-**Email:**: <timbrist@outlook.com>  
-**GitHub:**: https://github.com/timbrist
+**Email:** <timbrist@outlook.com>  
+**GitHub:** <https://github.com/timbrist>
 
 
 ## Experience
 
 ### Research Assistant
-**Aalto University**
-*Espoo, Finland*
+**Aalto University**  \
+*Espoo, Finland*  \
 *June 2024 - August 2024*
 
 - Developed a CARLA autonomous driving agent using large language models like LLama2, GPT4o.
@@ -17,8 +17,8 @@
 - Design experiments and evaluate results on metrics like BLUE, ROUGE and CIDEr.
 
 ### Summer Intern
-**University of Jyväskylä**
-*Jyväskylä, Finland*
+**University of Jyväskylä**  \
+*Jyväskylä, Finland*  \
 *April 2023 - August 2023*
 
 - Developed an interpreter of Multi-objective optimization problems for group framework [DESDEO](https://github.com/industrial-optimization-group/DESDEO).
@@ -27,8 +27,8 @@
 
 
 ### Game Developer
-**Shanghai CloudToad Network Technology Co., Ltd.**
-*Shanghai, China*
+**Shanghai CloudToad Network Technology Co., Ltd.**  \
+*Shanghai, China*  \
 *August 2021 - July 2022*
 
 - Developed scout, equipment system on SLG mobile game using Unity, Lua, and C++. 
@@ -38,8 +38,8 @@
 - Bug-fixing and Documentation. 
 
 ### Software Engineer
-**TIANMA MICROELECTRONICS CO., LTD.**
-*Shanghai, China*
+**TIANMA MICROELECTRONICS CO., LTD.**  \
+*Shanghai, China*  \
 *July 2020 - August 2021*
 
 - Developed hibernate and wake-up, backlight dimming, transmission of touch data, and power management on automotive display/screen.
@@ -49,8 +49,8 @@
 - Fixed critical bug on IC board. 
 
 ### Software Engineer Intern
-**Shanghai WenShang Technology CO., LTD**
-*Shanghai, China*
+**Shanghai WenShang Technology CO., LTD**  \
+*Shanghai, China*  \
 *July 2019 - December 2019*
 
 - Implement image algorithms to detect flaws of automative components using C++, OpenCV, Tensorflow CNN. 
@@ -62,7 +62,7 @@
 ## Education
 ### Master of Science in Cognitive Computing
 **University of Jyväskylä, Finland**  
-*2022-2024*
+*2022-2024*  
 *[Thesis](https://jyx.jyu.fi/handle/123456789/95789): Autonomous Driving Systems with Large Language Models: A Comparative Study of Interpretability and Motion Planning* 
 
 - Investigated the integration of large language models into autonomous driving systems
@@ -73,7 +73,7 @@
 
 ### Bachelor of Engineering in Software Engineering
 **Shanghai Institute of Technology, China**  
-*2016-2020*
+*2016-2020*  
 *Thesis: 3D reconstruction with Structure Light.* 
 - A non-contact 3D surface measurement technique using C++, OpenCV and a 3D reconstruction algorithm. The code is available as open source on [github](https://github.com/timbrist/structure-light).
 
@@ -83,16 +83,16 @@
 ## Projects
 
 ### [Hikvision-qt](https://github.com/timbrist/hikvision-qt)  
-**Description:** A Qt interface for Hikvison camera MV-CA013-21UM
-*Achievements:* 40+ stars on github.
+**Description:** A Qt interface for Hikvison camera MV-CA013-21UM  \
+*Achievements:* 40+ stars on github.  \
 **Technologies Used:** 
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat&logo=qt&logoColor=white) 
 
 
 ### Home Service Robot   
 **Description:** Robot functions include Speech Recognition, Computer Vision and Navigation. 
-*Achievements:* My team won 6 prizes at RoboCup (China Region), including 3 The First Prizes, and 9 prizes at China Service Robot Competition.
-**Technologies Used:** 
+*Achievements:* My team won 6 prizes at RoboCup (China Region), including 3 The First Prizes, and 9 prizes at China Service Robot Competition.  \
+**Technologies Used:**  \
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![ROS](https://img.shields.io/badge/ROS-22314E?style=flat&logo=ros&logoColor=white) ![Microsoft Speech API](https://img.shields.io/badge/Microsoft%20Speech%20API-0078D4?style=flat&logo=microsoft&logoColor=white)
 
 ---
