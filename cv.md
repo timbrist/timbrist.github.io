@@ -11,10 +11,10 @@
 *Espoo, Finland*  \
 *June 2024 - August 2024*
 
-- Developed a CARLA autonomous driving agent using large language models like LLama2, GPT4o.
-- Developed a natural language narrations and reasoning for driving dataset from [BDD-X-dataset](https://github.com/JinkyuKimUCB/BDD-X-dataset), using GPT4o
+- Developed a CARLA autonomous driving agent using large language models like LLama2, and GPT4o.
+- Developed a natural language narrations and reasoning system for driving dataset from [BDD-X-dataset](https://github.com/JinkyuKimUCB/BDD-X-dataset), using GPT4o
 - Implement and finetuning the state-of-art method on BDD-X-dataset on [videollava](https://github.com/PKU-YuanGroup/Video-LLaVA)
-- Design experiments and evaluate results on metrics like BLUE, ROUGE and CIDEr.
+- Design experiments and evaluate results on metrics like BLUE, ROUGE, and CIDEr.
 
 ### Summer Intern
 **University of Jyväskylä**  \
@@ -22,8 +22,9 @@
 *April 2023 - August 2023*
 
 - Developed an interpreter of Multi-objective optimization problems for group framework [DESDEO](https://github.com/industrial-optimization-group/DESDEO).
-- Implement a web interface using Typescript, CortexJS library. It provides users to type multi-objective optimization problems in mathematic symbols and use DESDEO features. 
+- Implement a web interface using Typescript, and CortexJS library. It allows users to type multi-objective optimization problems in mathematic symbols and use DESDEO features.
 - Wrote unit tests to ensure all the [multi-objective optimization problems](https://desdeo-problem.readthedocs.io/en/latest/examples.html) work correctly.
+
 
 
 ### Game Developer
@@ -31,11 +32,11 @@
 *Shanghai, China*  \
 *August 2021 - July 2022*
 
-- Developed scout, equipment system on SLG mobile game using Unity, Lua, and C++. 
-- Developed a data error checking game tool(using VB) for game designer. 
+- Developed scout, equipment system on SLG mobile game using Unity, Lua, and C++.
+- Developed a data error-checking game tool(using VB) for game designers.
 - Designed protobuf data format for back-end and front-end.
-- Participated in code reviews and contributed to Git and SVN management. 
-- Bug-fixing and Documentation. 
+- Participated in code reviews and contributed to Git and SVN management.
+- Bug-fixing and Documentation.
 
 ### Software Engineer
 **TIANMA MICROELECTRONICS CO., LTD.**  \
@@ -45,15 +46,15 @@
 - Developed hibernate and wake-up, backlight dimming, transmission of touch data, and power management on automotive display/screen.
 - Debugged de/serializer MAX9278/MAX9282, Synaptics TB7800, and ARM Cortex M0/M4 using oscilloscope, TP-Link, Keil C.
 - Familar with ISO26262 and MISRA C/C++
-- Cloudified documents and specifications that shares among SE, EE and QA department.
-- Fixed critical bug on IC board. 
+- Cloudified documents and specifications that are shared among SE, EE, and QA departments.
+- Fixed critical bug on the IC board.
 
 ### Software Engineer Intern
 **Shanghai WenShang Technology CO., LTD**  \
 *Shanghai, China*  \
 *July 2019 - December 2019*
 
-- Implement image algorithms to detect flaws of automative components using C++, OpenCV, Tensorflow CNN. 
+- Implement image algorithms to detect flaws in automotive components using C++, OpenCV, and Tensorflow CNN.
 - Optimizing the time complexity of the company image analyzing program.
 - Writing data analysis Python scripts to track detection data and parameters.
 
@@ -90,7 +91,7 @@
 
 
 ### Home Service Robot   
-**Description:** Robot functions include Speech Recognition, Computer Vision and Navigation. 
+**Description:** Robot functions include Speech Recognition, Computer Vision and Navigation.   \
 *Achievements:* My team won 6 prizes at RoboCup (China Region), including 3 The First Prizes, and 9 prizes at China Service Robot Competition.  \
 **Technologies Used:**  \
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![ROS](https://img.shields.io/badge/ROS-22314E?style=flat&logo=ros&logoColor=white) ![Microsoft Speech API](https://img.shields.io/badge/Microsoft%20Speech%20API-0078D4?style=flat&logo=microsoft&logoColor=white)
