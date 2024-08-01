@@ -45,7 +45,7 @@
 
 - Developed hibernate and wake-up, backlight dimming, transmission of touch data, and power management on automotive display/screen.
 - Debugged de/serializer MAX9278/MAX9282, Synaptics TB7800, and ARM Cortex M0/M4 using oscilloscope, TP-Link, Keil C.
-- Familar with ISO26262 and MISRA C/C++
+- Familiar with ISO26262 and MISRA C/C++
 - Cloudified documents and specifications that are shared among SE, EE, and QA departments.
 - Fixed critical bug on the IC board.
 
