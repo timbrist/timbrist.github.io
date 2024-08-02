@@ -6,3 +6,5 @@
 [Whoever is hateful must have their misery](https://timbrist.github.io/journal/20240527)
 
 [Our Little Game](https://timbrist.github.io/journal/20240507)
+
+[2nd Place for loser contest](https://timbrist.github.io/journal/20240802)
