@@ -1,6 +1,6 @@
 # Shengheng Yan
 
-**Email:** <timbrist@outlook.com>  
+**Email:** <sh.yan.shengheng@gmail.com>  
 **GitHub:** <https://github.com/timbrist>
 
 
