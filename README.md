@@ -16,3 +16,7 @@
 [Git Workflow](https://timbrist.github.io/workflow/git)  \
 [CSC Workflow](https://timbrist.github.io/workflow/hcp_csc)  \
 [CPP Workflow](https://timbrist.github.io/workflow/cpp)  
+
+
+#### Algorithms
+[Bitwise Operation](https://timbrist.github.io/workflow/python)
