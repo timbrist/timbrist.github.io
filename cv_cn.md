@@ -53,8 +53,8 @@
 - 实现了最先进的模型：TransFuser 和 LMDrive。
 - 与阿尔托大学共同合作。
 
-### Bachelor of Engineering in Software Engineering
-**Shanghai Institute of Technology, China**  
+### 本科：软件工程
+**上海应用技术大学，中国**  
 *2016-2020*  
 *论文：基于OpenCV的三维结构重建设计*
 - 一种基于OpenCV和C++的结构光编码三维测量系统，采用6副格雷编码+4副相移图的编码结构，以单线性插值算法优化立体匹配，提高重建精度与效率，并结合光程公式解释相移图测距原理，实现从图像采集到三维重建的完整软件流程。代码可在 [github](https://github.com/timbrist/structure-light) 上作为开源获取。
