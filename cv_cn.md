@@ -1,6 +1,6 @@
 # 严胜恒
 
-**邮件:** <sh.yan.shengheng@gmail.com>  
+**邮箱:** <sh.yan.shengheng@gmail.com>  
 **GitHub:** <https://github.com/timbrist>
 
 
