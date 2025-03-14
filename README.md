@@ -19,4 +19,4 @@
 
 
 #### Algorithms
-[Bitwise Operation](https://timbrist.github.io/workflow/python)
+[Bitwise Operation](https://timbrist.github.io/algorithms/bitwise)
