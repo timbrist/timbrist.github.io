@@ -1,6 +1,7 @@
 # timbrist.github.io
 [Deep Learning Notes](https://timbrist.github.io/deeplearning/home)  \
 [cv](https://timbrist.github.io/cv)  \
+[简历](https://timbrist.github.io/cv_cn)  \
 [Unreal Engine 5 Notes](https://timbrist.github.io/gamedev/ue5)  \
 [journal](https://timbrist.github.io/journal/journal_home)  
 
