@@ -6,6 +6,12 @@
 
 ## Experience
 
+### Founder – Independent Product/Consultant
+• Led development and delivery of a full website for a restaurant client, including Figma design systems and responsive implementation.
+• Successfully migrated legacy Drupal 7 site to Drupal 11, ensuring continuity and improved architecture.
+• Designed and automated figma design workflow systems to facilitate rapid delivery and reduce manual steps by ~80%.
+
+
 ### Research Assistant
 **Aalto University**  \
 *Espoo, Finland*  \
